@@ -1,0 +1,151 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><link rel="stylesheet" href="css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo - A Vida é a Melhor Escolha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Setembro Amarelo: Valorize a Vida</h1>
+        <p>Um toque de carinho, uma pitada de humor e muita informação para te lembrar: a vida sempre vale a pena.</p>
+    </header>
+
+    <section id="info">
+        <h2>O que é o Setembro Amarelo?</h2>
+        <p>O Setembro Amarelo é uma campanha de conscientização sobre a prevenção ao suicídio, que acontece desde 2015. A ideia é simples: falar é a melhor solução! 💛</p>
+        <img src="https://br.freepik.com/psd-premium/banner-de-midia-social-para-a-campanha-setembro-amarelo-contra-o-suicidio-no-brasil_31028527.htm" alt="Setembro Amarelo Banner">
+
+        <h3>Importância de Falar</h3>
+        <p>Sabia que a maioria das pessoas que enfrenta desafios emocionais não precisa de conselhos prontos, mas de uma escuta atenta? Então, que tal abrir os ouvidos e o coração?</p>
+        <img src="https://www.hnscpm.org.br/blog/setembro-amarelo-luta-pela-vida" alt="Escutar é importante">
+    </section>
+
+    <section id="estatisticas">
+        <h2>Números que Devem nos Alertar</h2>
+        <p>Infelizmente, o suicídio é uma das maiores causas de morte no mundo, e o Brasil ocupa o triste ranking de um dos países com mais casos. Mas, com informação e apoio, isso pode mudar.</p>
+        <img src="https://mppr.mp.br/Noticia/SAUDE-Taxa-de-suicidio-entre-jovens-cresce-30-em-25-anos-no-Brasil" alt="Estatísticas sobre suicídio">
+    </section>
+
+    <section id="prevenção">
+        <h2>Dicas de Prevenção</h2>
+        <ul>
+            <li>Seja uma boa companhia, mas evite frases como "Vai ficar tudo bem" de maneira automática. Às vezes, a melhor ajuda é só estar presente. 😌</li>
+            <li>Não tenha medo de perguntar: "Você está bem?" Essa pergunta pode salvar vidas!</li>
+            <li>Encaminhe para ajuda profissional quando necessário. Ninguém precisa enfrentar tudo sozinho. 📞 <strong>Disque 188</strong> para o CVV.</li>
+        </ul>
+        <img src="https://pt.vecteezy.com/png/29200529-aperto-de-mao-icone-emoji-adesivo" alt="Ajude quem precisa">
+    </section>
+
+    <section id="humor">
+        <h2>Um Toque de Humor, Porque Sorrir é Preciso 😄</h2>
+        <p>Ok, a vida tem seus altos e baixos. Mas vamos combinar que, às vezes, a gente só precisa de uma piadinha ruim pra melhorar o dia! Aqui vai uma: </p>
+        <blockquote>— O que o livro de matemática disse para o livro de história?<br>— Não me venha com seus problemas, eu já tenho muitos meus!</blockquote>
+        <img src="https://www.google.com/imgres?q=emoji%20sorrindo&imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3a%2F93%2F9e%2F3a939ed5a67ea28b52771fc9d9f67c88.png&imgrefurl=https%3A%2F%2Fbr.pinterest.com%2Fpin%2F593067844659482036%2F&docid=cDHrHgwhj3cZeM&tbnid=X7srhIBLxTEwRM&vet=12ahUKEwiarYek_NiIAxX2A7kGHfYPOT8QM3oECBgQAA..i&w=300&h=300&hcb=2&ved=2ahUKEwiarYek_NiIAxX2A7kGHfYPOT8QM3oECBgQAA" alt="Rir é importante">
+    </section>
+
+    <footer>
+        <p>Setembro Amarelo - Todos Juntos na Prevenção ao Suicídio. 💛</p>
+        <p>Quer ajudar mais? Ligue para o CVV (188) ou acesse <a href="https://www.setembroamarelo.org.br/" target="_blank">Setembro Amarelo Oficial</a>.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7c0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9e795;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffcc00;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #ffcc00;
+    font-size: 2rem;
+}
+
+section h3 {
+    color: #d1a700;
+}
+
+#estatisticas img, 
+#info img, 
+#prevenção img, 
+#humor img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 5px solid #ffcc00;
+    border-radius: 10px;
+}
+
+#prevenção ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    color: #555;
+}
+
+#prevenção li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+#humor blockquote {
+    font-style: italic;
+    color: #777;
+    background-color: #fff2a8;
+    padding: 10px;
+    border-left: 5px solid #ffcc00;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #f9e795;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #333;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
